@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace TomsoftZadatak.Models
 {
-    class Result
+    class Item
     {
-        public Artikl Artikli { get; set; }
-
+        public int Id { get; set; }
+        public string Naziv { get; set; }
     }
 }
